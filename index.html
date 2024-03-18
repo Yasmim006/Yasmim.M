@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mapeamento de imagens e Vídeos</title>
+<style>
+   body {
+       font-family: Arial, sans-serif;
+       margin: 0;
+       padding: 0;
+       background-color: rgb(218, 129, 240);
+    }
+   .container {
+       max-width: 1200px;
+       margin: 20px auto;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+   }
+   .column {
+       width: 30%;
+       margin-bottom: 20px;
+   }
+   img, iframe {
+       width: 100%;
+       height: auto;
+       cursor: pointer;
+       transition: transform 0.2s;
+   }
+   h1{
+    text-align: center;
+   }
+   img:hover, iframe:hover {
+       transform: scale(1.1);
+   }
+</style>
+</head>
+<body>
+    <h1>Mapeamento de Vídeos e Imagens</h1>
+   <table>
+       <tr>
+           <td>
+               <img src="https://s2-techtudo.glbimg.com/_x1uNuVYoozo1vKlZZHyZTVPNxE=/0x0:1280x720/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/r/K/xlKVduRIGge6Ay0CRVPQ/aaaabfou5myz-a88bawig3doljnfl9bd-jtkw9yz8eh1rm568mtk5qgjclghndr2x8jy5pzufefr3ryz55qsxuhqcvpqniaiivdsbppf.jpg" onclick="window.open('https://s2-techtudo.glbimg.com/_x1uNuVYoozo1vKlZZHyZTVPNxE=/0x0:1280x720/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/r/K/xlKVduRIGge6Ay0CRVPQ/aaaabfou5myz-a88bawig3doljnfl9bd-jtkw9yz8eh1rm568mtk5qgjclghndr2x8jy5pzufefr3ryz55qsxuhqcvpqniaiivdsbppf.jpg', '_blank')">
+               <p> - Hunter X Hunter</p>
+           </td>
+           <td>
+               <img src="https://cdn.superaficionados.com/imagenes/bleach-guia-temporadas-arcos-episodios-og.jpg" onclick="window.open('https://cdn.superaficionados.com/imagenes/bleach-guia-temporadas-arcos-episodios-og.jpg', '_blank')">
+               <p> - Bleach</p>
+           </td>
+           <td>
+               <img src="https://media.techtribune.net/uploads/2022/02/my-hero-ultra-impact.png" onclick="window.open('https://media.techtribune.net/uploads/2022/02/my-hero-ultra-impact.png', '_blank')">
+               <p> - My hero academia</p>
+           </td>
+       </tr>
+       <tr>
+           <td>
+               <iframe width="100%" height="315" src="https://www.youtube.com/embed/lg2RJl-jCzw" frameborder="0" allowfullscreen></iframe>
+               <p> Anime - Hunter x Hunter</p>
+           </td>
+           <td>
+               <iframe width="100%" height="315" src="https://www.youtube.com/embed/s3ujFKd8f28" frameborder="0" allowfullscreen></iframe>
+               <p> Anime - Bleach</p>
+           </td>
+           <td>
+               <iframe width="100%" height="315" src="https://www.youtube.com/embed/L1FdEBTJXus" frameborder="0" allowfullscreen></iframe>
+               <p> Anime - Me hero academia</p>
+
+
+           </td>
+       </tr>
+   </table>
+</body>
+
